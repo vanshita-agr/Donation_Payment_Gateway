@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+section{
+    background-color: #ddd;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding:0px 60px;
+}
+section .content{
+    flex:2;
+    text-align: justify;
+    padding-right: 40px;
+}
+section .content h2{
+    color:#000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+section .content h4{
+    color:#8f8f8f;
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+section .content .artical{
+    margin-top: 10px;
+}
+section .content .artical p{
+    color: #000000;
+    font-size: 16px;
+    font-family: verdana;
+}
+section .image-section{
+    flex:1;
+    margin:auto;
+}
+section .image-section img{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+section .content .button{
+    margin-top: 20px;
+}
+section .content .button a{
+    color: white;
+    text-decoration: none;
+    background-color: #000000;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+section .content .button a:hover{
+    background-color: #8f8f8f;
+    color: #000000;
+    transition: 0.5s ease;
+}
+section .social{
+    margin-top: 50px;
+}
+section .social a{
+    font-size: 24px;
+    color:#000000;
+    padding: 0px 8px;
+}
+section .social a:hover{
+    color: #8f8f8f;
+    transition: 0.5s ease;
+}
+@media screen and (max-width: 768px){
+    section{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    section .content{
+        text-align: center;
+        padding-right: 0px;
+    }
+    section .image-section{
+        margin-top: 20px;
+
+    }
+    section .social{
+        margin-top: 25px;
+        text-align: center;
+    }
+    section .social a{
+        font-size: 22px;
+    }
+}

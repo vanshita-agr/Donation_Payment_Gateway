@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(53, 155, 87, 0.4);
+}
+.navbar.h3{
+  top: 40px;
+}
+
+.navbar ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 35px;
+  margin-right: 40px;
+}
+.navbar ul li{
+  display: inline-block;
+}
+.navbar ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: wheat;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.4s ease;                                            
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background-color: rgb(63, 163, 80);
+color: #000;
+}
+.wrapper .center{
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+.center h1{
+  color: red;
+  width: 1000px;
+}
+.center .buttons{
+  margin: 35px 280px;
+}
+.buttons button{
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffb3b3;
+  background: red;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #cc0000;
+  border-radius: 25px;
+  transition: .4s;
+}
+.buttons .btn2{
+  margin-left: 25px;
+}
+.buttons button:hover{
+  background: #cc0000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://xtentertainment.com/wp-content/uploads/2015/03/Contact-us-Background.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .box{
+    width: 450px;
+    background: rgba(236, 185, 185, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgba(70, 78, 82, 0.671);
+    font-family:"sans-serif";
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    color: black;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family:"sans-serif";
+  }
+  .box h4{
+    color:black;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-family:"sans-serif";
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color:black;
+    text-decoration: none;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: rgba(110, 114, 106, 0.3);
+  }
